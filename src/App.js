@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import linkedList from './utils/linkedList.js';
+import cards from './data/cards.js'
 import './App.css';
 
-function App() {
+const sortedCards = linkedList(cards);
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Transportation Cards</h1>
+        {sortedCards.map((card, i) => (
+            <div className="card" key={i}>
+                <div>{card.transport}</div>
+                <div>{card.origin}</div>
+                <div>{card.destination}</div>
+                <div>{card.seat}</div>
+                <hr />
+            </div>
+        ))}
     </div>
   );
 }
