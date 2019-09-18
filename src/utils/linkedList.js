@@ -1,12 +1,12 @@
 //this is the answer, ran out of time.
 //https://itnext.io/creating-linked-lists-in-javascript-2980b0559324
-const linkedList = (cards) => {
+const linkedList = (nodes) => {
 
-    const newCardsObj = cards.map((card, i) =>{
-        return card;
+    const newNodesObj = nodes.map((node, i) =>{
+        return node;
     });
 
-    return newCardsObj;
+    return newNodesObj;
 }
 
 export default linkedList;
