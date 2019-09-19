@@ -1,27 +1,28 @@
 const cards = [
     {
         'transport': 'Train 78A',
-        'origin': 'Madrid1',
+        'origin': 'Madrid',
         'destination': 'Barcelona',
         'seat': '45A'
     },
     {
-        'transport': 'Train 78A',
-        'origin': 'Madrid2',
-        'destination': 'Barcelona',
-        'seat': '45B'
+        'transport': 'Airport Bus',
+        'origin': 'Barcelona',
+        'destination': 'Gerona Airport',
     },
     {
-        'transport': 'Train 78A',
-        'origin': 'Madrid4',
-        'destination': 'Barcelona',
-        'seat': '45C'
+        'transport': 'Flight SK455',
+        'origin': 'Gerona Airport',
+        'destination': 'Stockholm',
+        'gate': '45B',
+        'seat': '3A',
     },
     {
-        'transport': 'Train 78A',
-        'origin': 'Madrid3',
-        'destination': 'Barcelona',
-        'seat': '45D'
+        'transport': 'Flight SK22',
+        'origin': 'Stockholm',
+        'destination': 'New York',
+        'gate': '22',
+        'seat': '7B'
     },
 ];
 
