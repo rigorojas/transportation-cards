@@ -1,9 +1,9 @@
 import React from 'react';
-import linkedList from './utils/linkedList.js';
+import doubleLinkedList from './utils/doubleLinkedList.js';
 import cards from './data/cards.js'
 import './App.css';
 
-const sortedCards = linkedList(cards);
+const sortedCards = doubleLinkedList(cards, 'orgin', 'destination');
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 // this is the answer, ran out of time.
 // https://reactgo.com/javascript-double-linked-list-implementation/
-const linkedList = (nodes) => {
+const linkedList = (nodes, head, tail) => {
 
     const newNodesObj = nodes.map((node, i) =>{
         return node;
