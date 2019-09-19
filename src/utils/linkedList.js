@@ -1,5 +1,5 @@
-//this is the answer, ran out of time.
-//https://itnext.io/creating-linked-lists-in-javascript-2980b0559324
+// this is the answer, ran out of time.
+// https://reactgo.com/javascript-double-linked-list-implementation/
 const linkedList = (nodes) => {
 
     const newNodesObj = nodes.map((node, i) =>{
